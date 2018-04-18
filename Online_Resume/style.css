@@ -1,8 +1,8 @@
-/* 
+/*
 html5doctor.com Reset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
+Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
@@ -15,7 +15,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
@@ -32,7 +32,7 @@ body {
 }
 
 article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section { 
+footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
@@ -68,7 +68,7 @@ ins {
 /* change colours to suit your needs */
 mark {
     background-color:#ff9;
-    color:#000; 
+    color:#000;
     font-style:italic;
     font-weight:bold;
 }
@@ -91,7 +91,7 @@ table {
 hr {
     display:block;
     height:1px;
-    border:0;   
+    border:0;
     border-top:1px solid #cccccc;
     margin:1em 0;
     padding:0;
@@ -99,7 +99,7 @@ hr {
 
 input, select {
     vertical-align:middle;
-} 
+}
 
 /*My Code*/
 
@@ -113,7 +113,8 @@ body {
 
 /*HEADER*/
 header {
-background-color: #fff;
+/* background-color: #fff; */
+background-color: #34495e;
 width: 100%;
 height :100px;
 }
@@ -216,7 +217,7 @@ header .projects {
 	background-image: url('image/forest.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;	
+	background-size: cover;
 	display: table;
 }
 
@@ -258,7 +259,7 @@ width: calc(100%-40px);
 	background-image: url('image/me.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
-	background-size: cover;	
+	background-size: cover;
 	display: table;
 	margin: 0 auto;
 	}
@@ -266,7 +267,7 @@ width: calc(100%-40px);
 .aboutme h3{
 	font-family: Catamaran;
 	font-size: 30px;
-	font-weight: 500;	
+	font-weight: 500;
 	line-height: 40px;
 	color: #111;
 	text-align: center;
@@ -276,7 +277,7 @@ width: calc(100%-40px);
 	font-family: Catamaran;
 	font-size: 20px;
 	text-indent: 40px;
-	font-weight: 200;	
+	font-weight: 200;
 	line-height: 25px;
 	color: #111;
 	text-align: justify;
@@ -301,7 +302,7 @@ width: calc(100%-40px);
 		width: 50%;
 	}
 
- 
+
 	.container{
 	padding: 20px;
 	width: 60%;
@@ -323,7 +324,7 @@ footer {
 	width: calc(100% - 80px);
 	padding: 40px 40px;
 	background-color: #111;
-	margin-top: 20px; 
+	margin-top: 20px;
 	overflow: hidden;
 }
 
@@ -347,11 +348,11 @@ font-family: Catamara;
 
 .footer-img {
 	width: 50px;
-	float: right;	
+	float: right;
 }
 
 .footer-img img {
 	width: 100%;
-	margin-bottom: 10px; 	
+	margin-bottom: 10px;
 }
 /*<---FOOTER*/
